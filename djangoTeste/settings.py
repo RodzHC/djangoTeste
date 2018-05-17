@@ -54,7 +54,7 @@ ROOT_URLCONF = 'djangoTeste.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/rodz/Documents/djangoTeste/perfis/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
